@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional background for contrast */
+}
+
+.box {
+    background-color: chocolate;
+    height: 50vh;
+    width: 50vw;
+    animation: colors 2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes colors {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: rgb(131, 26, 228);
+    }
+    50% {
+        background-color: pink;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: blue;
+    }
+}
